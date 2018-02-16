@@ -1,0 +1,162 @@
+.product-full-item {
+  width: 100%;
+}
+.product-full-item-top {
+  margin-bottom: 70px;
+}
+.product-full-item-composition {
+  position: relative;
+
+  display: flex;
+
+  width: 1000px;
+  margin: auto;
+
+  justify-content: space-between;
+  &__item {
+    position: relative;
+
+    width: 100px;
+    padding-bottom: 60px;
+    span {
+      bottom: 0;
+
+      height: 50px;
+
+      text-align: center;
+      letter-spacing: letter-spacing(150);
+      text-transform: uppercase;
+
+      color: $dark-purple;
+
+      font-family: $OpenSans-Extrabold;
+      font-size: rem-calc(12);
+
+      @include horizontal-center;
+    }
+    &:before {
+      display: block;
+
+      content: "";
+    }
+    &._composition-1 {
+      &:before {
+        @include bg-svg($composition-1);
+      }
+    }
+    &._composition-2 {
+      &:before {
+        @include bg-svg($composition-2);
+      }
+    }
+    &._composition-3 {
+      &:before {
+        @include bg-svg($composition-3);
+      }
+    }
+    &._composition-4 {
+      &:before {
+        @include bg-svg($composition-4);
+      }
+    }
+    &._composition-5 {
+      &:before {
+        @include bg-svg($composition-5);
+      }
+    }
+    &._composition-6 {
+      &:before {
+        @include bg-svg($composition-6);
+      }
+    }
+    &._composition-7 {
+      &:before {
+        @include bg-svg($composition-7);
+      }
+    }
+    &._composition-8 {
+      &:before {
+        @include bg-svg($composition-8);
+      }
+    }
+  }
+}
+
+
+.product-full-item-composition-line {
+  margin: auto;
+
+  @include bg-svg($composition-lines);
+}
+
+.product-full-item-bottom {
+  position: relative;
+
+  height: 350px;
+
+  border-top: 2px solid $gold;
+  background: linear-gradient(to bottom, #dedfdf, $white);
+}
+
+.product-full-item-candy {
+  top: -90px;
+
+  margin: auto;
+
+  @include horizontal-center;
+  img {
+    margin: auto;
+  }
+  &:after {
+    display: block;
+
+    content: "";
+
+    @include bg-svg($candy-shadow);
+    @include horizontal-center;
+  }
+}
+
+.product-full-item-consist {
+  position: absolute;
+  bottom: 40px;
+
+  display: flex;
+
+  @include horizontal-center;
+  justify-content: center;
+  &__item {
+    position: relative;
+
+    width: 115px;
+    padding-top: 105px;
+
+    text-align: center;
+
+    color: $dark-purple;
+
+    font-family: $OpenSans-Bold;
+    font-size: rem-calc(13);
+    span {
+      position: absolute;
+      top: 0;
+
+      display: block;
+
+      width: 97px;
+      height: 97px;
+
+      text-align: center;
+
+      color: $white;
+      border-radius: 50%;
+      background-color: $gold;
+
+      font-family: $OpenSans-Extrabold;
+      font-size: rem-calc(37);
+      line-height: 97px;
+
+      @include horizontal-center;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@include font-face(OpenSans, "../fonts/OpenSans");
+$OpenSans: 'OpenSans', Helvetica, Arial, sans-serif;
+
+@include font-face(OpenSans-Bold, "../fonts/OpenSans-Bold");
+$OpenSans-Bold: 'OpenSans-Bold', Helvetica, Arial, sans-serif;
+
+@include font-face(OpenSans-Extrabold, "../fonts/OpenSans-Extrabold");
+$OpenSans-Extrabold: 'OpenSans-Extrabold', Helvetica, Arial, sans-serif;
+
+@include font-face(SignPainter-HouseScript, "../fonts/SignPainter-HouseScript");
+$SignPainter-HouseScript: 'SignPainter-HouseScript', Helvetica, Arial, sans-serif;

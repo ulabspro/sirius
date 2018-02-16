@@ -1,0 +1,13 @@
+// Common styles of the project
+
+html,
+body {
+  position: relative;
+
+  font-family: $OpenSans;
+  font-size: $base-font-size;
+
+  @media screen and (min-width: 2500px) {
+    min-height: 100vh;
+  }
+}

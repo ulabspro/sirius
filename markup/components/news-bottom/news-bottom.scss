@@ -1,0 +1,123 @@
+.news-bottom {
+  min-width: 1280px;
+  max-width: 100%;
+  margin: auto;
+  &__wrapper {
+    display: flex;
+
+    width: 975px;
+    margin: auto;
+
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+.news-bottom-item {
+  position: relative;
+  @include transition;
+
+  display: block;
+
+  width: 290px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+  text-decoration: none;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    .news-bottom-item__image {
+      img {
+        filter: grayscale(50%);
+      }
+      &:before {
+        height: 0;
+      }
+      &:after {
+        visibility: visible;
+
+        opacity: .7;
+      }
+    }
+    .news-bottom-item__title {
+      color: $gold;
+    }
+  }
+  &__image {
+    position: relative;
+    img {
+      @include transition;
+
+      display: block;
+
+      width: 100%;
+      height: 100%;
+    }
+    &:before,
+    &:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      content: "";
+      transition: height .2s .4s ease-in-out;
+
+      opacity: .6;
+      background: linear-gradient(to bottom, rgba($dark-purple, .7), transparent);
+      box-shadow: 0 0 6px rgba($black, .5);
+    }
+    &:after {
+      z-index: 5;
+      @include transition;
+
+      visibility: hidden;
+
+      width: 100%;
+      height: 100%;
+
+      opacity: 0;
+      background: $dark-purple;
+    }
+  }
+  &__date {
+    @extend .news-top-item__date;
+
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  &__title {
+    display: block;
+
+    margin-bottom: 7px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: $dark-purple;
+
+    font-family: $OpenSans-Extrabold;
+    font-size: rem-calc(14);
+    line-height: rem-calc(14);
+  }
+  &__text {
+    color: #4d4d4d;
+
+    font-family: $OpenSans;
+    font-size: rem-calc(14);
+    line-height: rem-calc(17);
+  }
+}

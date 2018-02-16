@@ -1,0 +1,19 @@
+mixin product-full(data)
+  .product-full
+    .product-full__wrapper
+      .title.product-full__title
+        .title__cursive Энергетическая
+        .title__normal 
+          span Ценность
+
+    .product-full-slider
+      .product-full-slider__slide
+        +product-full-item
+      .product-full-slider__slide
+        +product-full-item
+      .product-full-slider__slide
+        +product-full-item
+
+    .product-full-slider-controls
+      .product-full-slider-controls__item._prev Груша
+      .product-full-slider-controls__item._next Яблоко

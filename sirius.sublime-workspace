@@ -1,0 +1,1196 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marign",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"off",
+				"offsetRight"
+			],
+			[
+				"consol",
+				"console.log"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"da",
+				"dark-purple"
+			],
+			[
+				"par",
+				"partners-map-layer"
+			],
+			[
+				"doc",
+				"documentation-list"
+			],
+			[
+				"new",
+				"news-bottom-item"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"mou",
+				"mouseenter"
+			],
+			[
+				"pro",
+				"product-full"
+			],
+			[
+				"pa",
+				"partners-map"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"cos",
+				"cosmos-ellipse"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"cosmos-el",
+				"cosmos-ellipse-planet"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"news",
+				"news-full-article"
+			],
+			[
+				"nes",
+				"news-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"news-top",
+				"news-top-item"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"fo",
+				"font-family\t(documentation-info.scss)"
+			],
+			[
+				"O",
+				"OpenSans"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"_p",
+				"_pdf"
+			],
+			[
+				"do",
+				"documentation-list"
+			],
+			[
+				"fee",
+				"feedback-form"
+			],
+			[
+				"fe",
+				"feedback-form"
+			],
+			[
+				"con",
+				"contacts-list"
+			],
+			[
+				"conta",
+				"contacts-map\t(contacts.jade)"
+			],
+			[
+				"bo",
+				"box-sizing"
+			],
+			[
+				"cm",
+				"company-management-item"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"ce",
+				"certificates"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"c",
+				"company-management"
+			],
+			[
+				"comp",
+				"company-management\t(about.jade)"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"prod",
+				"product-full-item"
+			],
+			[
+				"produ",
+				"product-list"
+			],
+			[
+				"po",
+				"product-list"
+			],
+			[
+				"pr",
+				"product-full"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"sub",
+				"subcatalog-list-slider\t(subcatalog-list.scss)"
+			],
+			[
+				"su",
+				"subcatalog-list-slider\t(subcatalog-list.scss)"
+			],
+			[
+				"_c",
+				"_chocolate\t(catalog-item.scss)"
+			],
+			[
+				"foo",
+				"footer"
+			],
+			[
+				"foote",
+				"footer-menu"
+			],
+			[
+				"cata",
+				"catalog-item\t(catalog-list.jade)"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ca",
+				"catalog-list"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"Ope",
+				"OpenSans-Extrabold\t(fonts.scss)"
+			],
+			[
+				"hea",
+				"header-menu__item"
+			],
+			[
+				"re",
+				"registration-rules"
+			],
+			[
+				"sea",
+				"search-progress"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"qu",
+				"question__title"
+			],
+			[
+				"que",
+				"question-block-first\t(questions.scss)"
+			],
+			[
+				"A",
+				"A65B"
+			],
+			[
+				"bord",
+				"border-box"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"seal",
+				"search-partner-sexual"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"ad",
+				"advantages__item"
+			],
+			[
+				"hed",
+				"header"
+			],
+			[
+				"heade",
+				"header-online"
+			],
+			[
+				"backgorund-",
+				"background-size"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"b",
+				"b5b5b5"
+			],
+			[
+				"js-cha",
+				"js-change-password"
+			],
+			[
+				"for",
+				"form__add-more"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"d",
+				"d8d2d2"
+			],
+			[
+				"meta",
+				"meta-window-form-group"
+			],
+			[
+				"inpu",
+				"input-group"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"we",
+				"we-recomended__icon"
+			],
+			[
+				"advertise-for",
+				"advertise-form-inside"
+			],
+			[
+				"advertise-pa",
+				"advertise-packets-block"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"advertise-p",
+				"advertise-packets-block"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"medi",
+				"medium-order-1"
+			],
+			[
+				"small-",
+				"small-expand"
+			],
+			[
+				"med",
+				"medium-order-2"
+			],
+			[
+				"ex",
+				"expert-articles\t(expert-articles.jade)"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"arr",
+				"arrow-left"
+			],
+			[
+				"rem",
+				"rem-calc"
+			],
+			[
+				"slide",
+				"slidesToShow"
+			],
+			[
+				"art",
+				"article-video"
+			],
+			[
+				"site",
+				"sitemap-page-item"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"dire",
+				"direct-top"
+			],
+			[
+				"rea",
+				"read-more"
+			],
+			[
+				"marin",
+				"margin-right"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"butt",
+				"button\t(GUI.scss)"
+			],
+			[
+				"form",
+				"form__field"
+			],
+			[
+				"fom",
+				"form__label"
+			],
+			[
+				"e",
+				"expert-questions"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"border-bot",
+				"border-bottom"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"me",
+				"medium-4"
+			],
+			[
+				"al",
+				"align-bottom"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"backgrou",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "markup/static/scss/common.scss",
+			"settings":
+			{
+				"buffer_size": 196,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/footer/footer.scss",
+			"settings":
+			{
+				"buffer_size": 1268,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				":",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 493.0
+	},
+	"console":
+	{
+		"height": 526.0,
+		"history":
+		[
+			"cd e:/git/svadbavo-2015/",
+			"update",
+			"export LC_NUMERIC=C",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"view.settings().get('syntax')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/extiser/git/sirius/markup",
+		"/Users/extiser/git/sirius/markup/components",
+		"/Users/extiser/git/sirius/markup/components/footer",
+		"/Users/extiser/git/sirius/markup/pages",
+		"/Users/extiser/git/sirius/markup/static",
+		"/Users/extiser/git/sirius/markup/static/scss"
+	],
+	"file_history":
+	[
+		"/Users/extiser/git/sirius/markup/components/news-bottom/news-bottom.jade",
+		"/Users/extiser/git/sirius/markup/pages/news.jade",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/common.scss",
+		"/Users/extiser/git/sirius/markup/components/news-bottom/news-bottom.scss",
+		"/Users/extiser/git/sirius/markup/components/catalog-list/catalog-list.scss",
+		"/Users/extiser/git/sirius/markup/components/catalog-item/catalog-item.scss",
+		"/Users/extiser/git/sirius/markup/components/catalog-list/catalog-list.jade",
+		"/Users/extiser/git/sirius/markup/components/cosmos/cosmos.jade",
+		"/Users/extiser/git/sirius/markup/components/cosmos/cosmos.scss",
+		"/Users/extiser/git/sirius/markup/components/cosmos/cosmos.js",
+		"/Users/extiser/git/sirius/markup/components/news-full-article/news-full-article.scss",
+		"/Users/extiser/git/sirius/markup/components/header/header.scss",
+		"/Users/extiser/git/sirius/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/sirius/markup/components/subcatalog-list/subcatalog-list.scss",
+		"/Users/extiser/git/sirius/markup/components/product-list/product-list.scss",
+		"/Users/extiser/git/sirius/markup/components/product-full/product-full.scss",
+		"/Users/extiser/git/sirius/markup/components/partners-map/partners-map.scss",
+		"/Users/extiser/git/sirius/markup/components/news-top/news-top.scss",
+		"/Users/extiser/git/sirius/markup/components/feedback/feedback.scss",
+		"/Users/extiser/git/sirius/markup/components/documentation-info/documentation-info.scss",
+		"/Users/extiser/git/sirius/markup/components/contacts-list/contacts-list.scss",
+		"/Users/extiser/git/sirius/markup/components/about-company/about-company.scss",
+		"/Users/extiser/git/sirius/markup/components/footer/footer.scss",
+		"/Users/extiser/git/sirius/markup/static/scss/common.scss",
+		"/Users/extiser/git/sirius/markup/components/news-full-article/news-full-article.jade",
+		"/Users/extiser/git/sirius/markup/pages/index.jade",
+		"/Users/extiser/git/sirius/markup/components/header/header.jade",
+		"/Users/extiser/git/sirius/markup/components/partners-map/partners-map.js",
+		"/Users/extiser/git/sirius/markup/components/contacts-map/contacts-map.js",
+		"/Users/extiser/git/sirius/markup/components/partners-map/partners-map.jade",
+		"/Users/extiser/git/sirius/markup/components/documentation-info/documentation-info.jade",
+		"/Users/extiser/git/sirius/markup/components/news-top/news-top.jade",
+		"/Users/extiser/git/sirius/markup/pages/subcatalog.jade",
+		"/Users/extiser/git/sirius/markup/components/subcatalog-list/subcatalog-list.jade",
+		"/Users/extiser/git/sirius/markup/components/product-full/product-full.jade",
+		"/Users/extiser/git/sirius/markup/components/product-list/product-list.jade",
+		"/Users/extiser/git/sirius/markup/pages/product.jade",
+		"/Users/extiser/git/sirius/markup/components/news-top/news-top.js",
+		"/Users/extiser/git/sirius/markup/components/feedback/feedback.jade",
+		"/Users/extiser/git/sirius/markup/pages/contacts.jade",
+		"/Users/extiser/git/sirius/markup/components/contacts-list/contacts-list.jade",
+		"/Users/extiser/git/sirius/markup/pages/layout.jade",
+		"/Users/extiser/git/sirius/markup/components/about-company/about-company.jade",
+		"/Users/extiser/git/sirius/markup/components/footer/footer.jade",
+		"/Users/extiser/git/sirius/markup/components/contacts-map/contacts-map.scss",
+		"/Users/extiser/git/sirius/markup/components/contacts-map/contacts-map.jade",
+		"/Users/extiser/git/sirius/markup/pages/news-full.jade",
+		"/Users/extiser/Downloads/temp/logoroll/index.html",
+		"/Users/extiser/git/sirius/markup/components/head/head.jade",
+		"/Users/extiser/git/sirius/markup/pages/offer-partners.jade",
+		"/Users/extiser/git/sirius/markup/components/offer-partners-info/offer-partners-info.jade",
+		"/Users/extiser/git/sirius/markup/components/offer-partners-info/offer-partners-info.scss",
+		"/Users/extiser/git/sirius/markup/pages/about.jade",
+		"/Users/extiser/git/sirius/markup/components/company-management/company-management.jade",
+		"/Users/extiser/git/sirius/markup/components/company-management/company-management.scss",
+		"/Users/extiser/git/sirius/markup/components/certificates/certificates.js",
+		"/Users/extiser/git/sirius/markup/components/certificates/certificates.scss",
+		"/Users/extiser/git/sirius/markup/components/certificates/certificates.jade",
+		"/Users/extiser/git/sirius/markup/components/product-full/product-full.js",
+		"/Users/extiser/git/sirius/markup/components/product-full-item/product-full-item.scss",
+		"/Users/extiser/git/sirius/markup/components/product-full-item/product-full-item.jade",
+		"/Users/extiser/git/sirius/markup/components/product-full-item/product-full-item.js",
+		"/Users/extiser/git/sirius/markup/components/product-item/product-item.jade",
+		"/Users/extiser/git/sirius/markup/components/product-item/product-item.js",
+		"/Users/extiser/git/sirius/markup/components/product-item/product-item.scss",
+		"/Users/extiser/git/sirius/markup/components/product-list/product-list.js",
+		"/Users/extiser/git/sirius/markup/components/subcatalog-list/subcatalog-list.js",
+		"/Users/extiser/git/sirius/markup/static/scss/plugins/slick-theme.scss",
+		"/Users/extiser/git/sirius/markup/static/scss/plugins/slick.scss",
+		"/Users/extiser/git/sirius/markup/pages/catalog.jade",
+		"/Users/extiser/git/sirius/markup/components/catalog-item/catalog-item.jade",
+		"/Users/extiser/git/sirius/markup/static/scss/vars.scss",
+		"/Users/extiser/git/sirius/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/sirius/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/sirius/markup/components/default_component_scheme.json",
+		"/Users/extiser/git/svteam/dating/markup/pages/searxh.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/searxh-page/searxh-page.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/new-profiles/new-profiles.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/new-profiles/new-profiles.scss",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/common.scss",
+		"/Users/extiser/git/svteam/dating/markup/pages/4-1.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/header/header.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/p4-1/p4-1.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.scss",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/footer/footer.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.jade",
+		"/Users/extiser/git/svteam/dating/markup/pages/questions.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/questions/questions.js",
+		"/Users/extiser/git/svteam/dating/markup/static/js/libraries/jquery-3.1.0.min.js",
+		"/Users/extiser/git/svteam/dating/markup/pages/index.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-block/search-block.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.jade",
+		"/Users/extiser/git/svteam/dating/markup/components/search-partner/search-partner.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/main-content/main-content.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/advantages/advantages.js",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/header/header.jade",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/vars.scss",
+		"/Users/extiser/git/svteam/dating/markup/components/default_component_scheme.json",
+		"/Users/extiser/git/svteam/dating/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-bar/top-bar.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-bar/top-bar.scss",
+		"/Users/extiser/git/sovets-pro/markup/pages/index.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.scss",
+		"/Users/extiser/git/sovets-pro/markup/pages/single.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-menu/top-menu.scss",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-list/experts-list.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-list/experts-list.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-login/top-login.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-login/top-login.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-search/top-search.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-ask/top-ask.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.js",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-share/single-share.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-share/single-share.jade",
+		"/Users/extiser/git/sovets-pro/markup/pages/experts-settings.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-settings/expert-settings.jade"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Users/extiser/git/sirius/markup/components",
+			"/Users/extiser/git/sovets-pro/markup/components",
+			"/Users/extiser/git/sovets-pro/markup/modules",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"max-width: 1920px;",
+			"submit",
+			"data-time=\"30\"",
+			"$inner",
+			"$dot",
+			"h1",
+			"Вернуться к оглавлению",
+			"form",
+			"login-page-form",
+			"targ",
+			"link",
+			"visi",
+			"img",
+			"шьп",
+			"offcanvas",
+			"off",
+			"/",
+			".form__label",
+			"accord",
+			"li",
+			".experts-favourite",
+			".form__top-label.form__label",
+			"label",
+			".meta-window-social-item",
+			".login-page-form-native",
+			".login-page-form-social",
+			".experts-rate__item",
+			"zodiac",
+			"Cambria-Regular",
+			" data-icon=\"\"",
+			".zodiac__item",
+			"links",
+			"Links",
+			"color",
+			"linkcolor",
+			"link",
+			"form",
+			"menu",
+			"-webfont",
+			"url('",
+			"span.main-categories-list-item__icon",
+			" /  оплачено",
+			"\n\n",
+			"\n",
+			"\n\n",
+			"\n\n\n\n",
+			"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"/ оплачено\n\n\n\n",
+			" / оплачено",
+			"\n",
+			"cost: '",
+			"cityFinish:",
+			"cityFinish:'Самарканд',",
+			"cityFinish: ",
+			"city:",
+			"cost: '5",
+			"cost: '6",
+			"cost: '3",
+			"cost: '1",
+			"cost: '2",
+			"weight: '',",
+			";\n",
+			"../img/",
+			"день",
+			"%=staticPrefix=%images/content/",
+			"bda",
+			"yog",
+			"team",
+			"massa",
+			"face",
+			"eyes",
+			"ea",
+			"coach",
+			"bday",
+			"Calibri-Regular",
+			"auto_complete",
+			"auto",
+			".form__label",
+			".form__element",
+			"font-size",
+			"box-sizing",
+			"'",
+			"extend",
+			"</p>",
+			"\t\t\t<p>",
+			"@media screen and (max-width: 768px) {",
+			"@media screen and (max-width: 480px) {",
+			";\n",
+			"h1",
+			"Custom-Font",
+			"}",
+			"ico",
+			".hide-mobile",
+			"h1",
+			"1",
+			"ul",
+			".hide",
+			"#SkypeButton_Call_vageik_1",
+			"__block",
+			"row",
+			".row",
+			"unisans",
+			".small-article",
+			"a(href=\"#\" ",
+			"ul",
+			"search",
+			"onThumbnailsClick",
+			"pswp",
+			"pswp__item",
+			"openPhotoSwipe",
+			"Thumbnail",
+			"parse",
+			"parseThumbnailElements",
+			".col-lg-11.col-xs-12.col-md-12",
+			".col-lg-1.hidden-xs",
+			".col-lg-1.hidden-xs.hidden-md",
+			".col-lg-11.col-lg-offset-1.col-xs-12.col-md-12",
+			".col-xs-12",
+			".col-md",
+			".col-xs-12",
+			".visible-xs-block.visible-md-block",
+			".visible-xs-block",
+			".title",
+			"8",
+			"send",
+			"$blue"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"max-width: 100%;",
+			"data-time=\"60\"",
+			"$planet",
+			"",
+			"#",
+			".form__label.form__label--inline",
+			".experts-menu-list__wrap",
+			".expert-favourite",
+			".form__top-label",
+			"label.form__label",
+			".meta-window-social__item",
+			".meta-window-form",
+			".meta-window-social",
+			".experts-rate__row",
+			"other-icons",
+			"Cambria-Bold",
+			"Cambria-Italic",
+			"",
+			".icon.zodiac__item",
+			"",
+			"url('../fonts/",
+			"i.main-categories-list-item__icon",
+			"",
+			"\n",
+			"",
+			"cost: ",
+			"        cityFinish: ",
+			"        cityFinish:'Самарканд',",
+			"cityStart: 'Ташкент',\ncityFinish:",
+			"cityFinish:",
+			"cost: 5",
+			"cost: 6",
+			"cost: 3",
+			"cost: 1",
+			"cost: 2",
+			"weight: '24 000',",
+			"%=staticPrefixForCss=%general/",
+			"http://shtukaturkapro.ru/TEMP/",
+			"DINPro-Bold",
+			"Roboto-Regular",
+			".advertising-form__label",
+			".advertising-form__element",
+			"\"",
+			"",
+			"p ",
+			"p",
+			"@media screen and (max-width: 800px) {",
+			"@media screen and (max-width: 768px) {",
+			"Lato-Thin",
+			"Lato-Regular",
+			"Lato-Medium",
+			"Lato-Light",
+			"Lato-Heavy",
+			"Lato-Hairline",
+			"Lato-Black",
+			"Lato-Bold",
+			"}",
+			"",
+			"#SkypeButton_Call_redvoronik_1",
+			"__item",
+			"../fonts/unisans",
+			".similar-article",
+			"li.sidebar-nav__item\n\t\t\t\ta(href=\"#\" ",
+			".col-xs-12.col-md-12.col-lg-11",
+			".hidden-xs.col-lg-1",
+			".hidden-xs.hidden-md.col-lg-1",
+			".col-xs-12.col-md-12.col-lg-11.col-lg-offset-1",
+			".col-xs-12.col-md-12",
+			".col-lg",
+			"",
+			".visible-xs-block.visible-md-block",
+			".title.visible-xs-block",
+			"#70cfea",
+			"angular",
+			"SegoeUILight",
+			"../images/",
+			"&--individualCreate",
+			"&--momentGlory",
+			"&--threeColors",
+			"&--theOne",
+			"&--bigDisplay",
+			"../static/images/",
+			"contentRowL",
+			"contentRowF",
+			"content-row-l",
+			"content-row-f",
+			"'",
+			"jQuery",
+			"slider",
+			"\"",
+			"uslugi",
+			"/images",
+			"CalendarByWeek",
+			"www.acccentre.ru",
+			"acccentre.ru",
+			"firm-card-tabs-video-album",
+			"acccentre.iqdemo.ru",
+			"javascript:void(0)",
+			".slide__content__title",
+			"",
+			"/images/",
+			"water",
+			"cr_stone_kg",
+			"cr_stone_m",
+			"sand_m",
+			"sand_kg",
+			"sand_m",
+			"cement",
+			"bags",
+			"plaster_kg",
+			"bags",
+			"plaster_kg",
+			"",
+			"option",
+			"",
+			".pagination__item",
+			"order-by",
+			"/images/",
+			"../images/sprite.png",
+			"/images",
+			"/",
+			"/images",
+			"/images/",
+			"",
+			"../images",
+			"",
+			"b-why-you-need",
+			"b-in-photo"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "markup/static/scss/common.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								128
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/components/footer/footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "sirius.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

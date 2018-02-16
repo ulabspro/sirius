@@ -1,0 +1,11 @@
+mixin header(data)
+  - var modiffer = attributes.class || ''
+  .header(class="#{modiffer}")
+    .header__wrapper
+      .header-menu._left
+        a(href="/about.html" title="").header-menu__item О компании
+        a(href="/catalog.html" title="").header-menu__item Каталог
+      a(href="/" title="").header__logo Сириус. Кондитерская фабрика
+      .header-menu._right
+        a(href="/news.html" title="").header-menu__item Новости
+        a(href="/contacts.html" title="").header-menu__item Контакты

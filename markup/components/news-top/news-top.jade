@@ -1,0 +1,14 @@
+mixin news-top(data)
+  .news-top
+    .news-top__wrapper
+      .title.news-top__title
+        .title__cursive Наши
+        .title__normal 
+          span Новости
+
+      a(href="/news-full.html" title="").news-top-item
+        .news-top-item__image
+          img(src="%=static=%images/assets/news-top/preview.jpg" alt="")
+        .news-top-item__info
+          .news-top-item__title ОТКРЫТИЕ НОВОГО БЛОКА КОМПАНИИ «СИРИУС»
+          .news-top-item__date 1 авг 2016

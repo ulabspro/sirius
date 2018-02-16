@@ -1,0 +1,159 @@
+.news-full-article {
+  min-width: 1280px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 45px;
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__wrapper {
+    width: 1000px;
+    margin: auto;
+  }
+}
+
+.news-full-article-layout {
+  width: 1000px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 80px;
+
+  border: 3px solid $gold;
+  border-radius: 52px;
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  ul,
+  ol,
+  blockquote,
+  table,
+  &__date {
+    display: block;
+
+    width: 580px;
+    margin: auto;
+  }
+  img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-transform: uppercase;
+
+    color: $dark-purple;
+
+    font-family: $OpenSans-Extrabold;
+    font-size: rem-calc(20);
+    font-weight: normal;
+  }
+  p,
+  ul,
+  ol {
+    margin: 20px auto;
+
+    color: #4d4d4d;
+
+    font-family: $OpenSans;
+    font-size: rem-calc(14);
+  }
+  a {
+    color: $dark-purple;
+    &:visited {
+      color: $dark-purple;
+    }
+    &:hover {
+      color: $gold;
+    }
+  }
+  &__date {
+    position: relative;
+
+    box-sizing: border-box;
+    padding-left: 20px;
+
+    color: $dark-purple;
+
+    font-family: $OpenSans-Bold;
+    font-size: rem-calc(14);
+    &:before {
+      left: 0;
+
+      display: block;
+
+      content: "";
+
+      @include bg-svg($time-blue);
+      @include vertical-center;
+    }
+  }
+}
+
+.news-full-article-navigate {
+  display: flex;
+
+  margin: 40px 0;
+
+  align-items: stretch;
+  justify-content: center;
+  &__item {
+    position: relative;
+
+    margin: 0 10px;
+    padding-top: 50px;
+
+    text-transform: uppercase;
+
+    color: $dark-purple;
+
+    font-family: $OpenSans-Extrabold;
+    font-size: rem-calc(12);
+    line-height: rem-calc(13);
+    &:before {
+      position: absolute;
+      top: 0;
+
+      display: block;
+
+      content: "";
+
+      border-radius: 50%;
+      background-color: $white;
+    }
+    &:hover {
+      cursor: pointer;
+
+      color: $gold;
+    }
+    &._prev {
+      text-align: right;
+      &:before {
+        right: 0;
+
+        @include bg-svg($left-blue);
+      }
+      &:hover {
+        &:before {
+          @include bg-svg($left-gold);
+        }
+      }
+    }
+    &._next {
+      &:before {
+        @include bg-svg($right-blue);
+      }
+      &:hover {
+        &:before {
+          @include bg-svg($right-gold);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.product-full {
+  position: relative;
+
+  min-width: 1280px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 165px;
+  &__title {
+    margin-bottom: 50px;
+  }
+  &__wrapper {
+    width: 1000px;
+    margin: auto;
+  }
+}
+
+.product-full-slider {
+  width: 100%;
+  &__slide {
+    width: 100%;
+  }
+}
+
+.product-full-slider-controls {
+  position: absolute;
+  bottom: 310px;
+
+  display: flex;
+
+  width: 1000px;
+
+  align-items: center;
+  @include horizontal-center;
+  justify-content: space-between;
+  &__item {
+    position: relative;
+
+    margin: 0 10px;
+    padding-top: 50px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $dark-purple;
+
+    font-family: $OpenSans-Extrabold;
+    font-size: rem-calc(12);
+    line-height: rem-calc(13);
+    &:before {
+      top: 0;
+
+      display: block;
+
+      content: "";
+
+      border-radius: 50%;
+      background-color: $white;
+
+      @include horizontal-center;
+    }
+    &:hover {
+      cursor: pointer;
+
+      color: $gold;
+    }
+    &._prev {
+      &:before {
+        @include bg-svg($left-blue);
+      }
+      &:hover {
+        &:before {
+          @include bg-svg($left-gold);
+        }
+      }
+    }
+    &._next {
+      &:before {
+        @include bg-svg($right-blue);
+      }
+      &:hover {
+        &:before {
+          @include bg-svg($right-gold);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.offer-partners-info {
+  @extend .documentation-info;
+  &__title {
+    @extend .documentation-info__title;
+  }
+  &__text {
+    @extend .documentation-info__text;
+  }
+  &__documentation {
+    position: relative;
+
+    margin-top: 20px;
+    padding-top: 60px;
+
+    text-align: center;
+
+    color: #4d4d4d;
+
+    font-family: $OpenSans;
+    font-size: rem-calc(14);
+    &:before {
+      top: 0;
+
+      display: block;
+
+      content: "";
+
+      @include bg-svg($documents);
+      @include horizontal-center;
+    }
+    a {
+      display: block;
+
+      text-decoration: none;
+
+      color: $dark-purple;
+
+      font-family: $OpenSans-Bold;
+      &:hover {
+        color: $gold;
+      }
+    }
+  }
+}

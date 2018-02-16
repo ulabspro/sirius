@@ -1,0 +1,176 @@
+.catalog-item {
+  position: relative;
+  @include transition;
+
+  width: 340px;
+  height: 340px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+  text-align: center;
+
+  box-shadow: 0 0 6px rgba($black, .5);
+  &:nth-child(3n+1) {
+    margin-right: 0;
+  }
+  &:before {
+    z-index: 6;
+    bottom: 125px;
+    @include absolute-center;
+
+    display: block;
+
+    content: "";
+  }
+  &._candy {
+    &:before {
+      @include bg-svg($candy-white);
+    }
+  }
+  &._caramel {
+    &:before {
+      @include bg-svg($caramel-white);
+    }
+  }
+  &._chocolate {
+    &:before {
+      @include bg-svg($chocolate-white);
+    }
+  }
+  &._coffee {
+    &:before {
+      @include bg-svg($coffee-white);
+    }
+  }
+  &._holiday {
+    &:before {
+      @include bg-svg($holiday-white);
+    }
+  }
+  &._jelly {
+    &:before {
+      @include bg-svg($jelly-white);
+    }
+  }
+  &._wafer {
+    &:before {
+      @include bg-svg($wafer-white);
+    }
+  }
+  &:hover {
+    .catalog-item__name {
+      visibility: hidden;
+
+      opacity: 0;
+    }
+    .catalog-item__image {
+      img {
+        position: absolute;
+        z-index: 4;
+        top: 0;
+        left: 0;
+
+        width: 360px;
+        height: 360px;
+
+        filter: grayscale(50%);
+      }
+      &:before {
+        height: 0;
+      }
+      &:after {
+        visibility: visible;
+
+        width: 360px;
+        height: 360px;
+
+        opacity: .7;
+      }
+    }
+  }
+  &__image {
+    img {
+      @include transition;
+
+      width: 100%;
+      height: 100%;
+    }
+    &:before,
+    &:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      content: "";
+      transition: height .2s .4s ease-in-out;
+
+      opacity: .6;
+      background: linear-gradient(to bottom, $dark-purple, transparent);
+      box-shadow: 0 0 6px rgba($black, .5);
+    }
+    &:after {
+      z-index: 5;
+      @include transition;
+
+      visibility: hidden;
+
+      width: 100%;
+      height: 100%;
+
+      opacity: 0;
+      background: $dark-purple;
+    }
+  }
+  &__name {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    @include transition;
+
+    visibility: visible;
+
+    width: 100%;
+    height: 80px;
+
+    opacity: 1;
+    background-color: $white;
+    box-shadow: 0 0 6px rgba($black, .1);
+    span {
+      @include absolute-center;
+
+      text-transform: uppercase;
+
+      color: $dark-purple;
+
+      font-family: $OpenSans-Extrabold;
+      font-size: rem-calc(20);
+      line-height: rem-calc(28);
+      &:before,
+      &:after {
+        position: absolute;
+        @include vertical-center;
+
+        display: block;
+
+        width: 4px;
+        height: 4px;
+
+        content: "";
+
+        border-radius: 50%;
+        background-color: $dark-purple;
+      }
+      &:before {
+        left: -13px;
+      }
+      &:after {
+        right: -13px;
+      }
+    }
+  }
+}

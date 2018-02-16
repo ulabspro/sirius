@@ -1,0 +1,30 @@
+.contacts-map {
+  position: relative;
+  &:before,
+  &:after {
+    position: absolute;
+    z-index: 99;
+
+    display: block;
+
+    width: 100%;
+    height: 51px;
+
+    content: "";
+  }
+  &:before {
+    top: 0;
+
+    background: url(%=static=%assets/contacts-map/top-gradient.png) repeat-x;
+  }
+  &:after {
+    bottom: 0;
+
+    background: url(%=static=%assets/contacts-map/bottom-gradient.png) repeat-x;
+  }
+}
+
+#contacts-map {
+  width: 100%;
+  height: 550px;
+}

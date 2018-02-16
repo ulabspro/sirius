@@ -1,0 +1,120 @@
+.certificates {
+  position: relative;
+
+  padding-top: 40px;
+  &:before {
+    top: 310px;
+
+    width: 100%;
+    height: 2px;
+
+    content: "";
+
+    background-color: $gold;
+
+    @include horizontal-center;
+  }
+  &__title {
+    margin-bottom: 50px;
+  }
+}
+
+.certificates-slider {
+  width: 1095px;
+  margin: auto;
+}
+
+.certificates-item {
+  width: 250px;
+  &__image {
+    position: relative;
+
+    width: 100%;
+    height: 340px;
+    img {
+      box-shadow: 5px 5px 15px rgba($black, .3);
+
+      @include absolute-center;
+    }
+  }
+  &__name {
+    padding-top: 15px;
+
+    text-align: center;
+
+    color: #4d4d4d;
+
+    font-family: $OpenSans-Bold;
+    font-size: rem-calc(14);
+    span {
+      display: block;
+
+      font-family: $OpenSans;
+    }
+  }
+}
+
+.certificates-slider-controls {
+  position: absolute;
+  top: 290px;
+
+  display: flex;
+
+  width: 1220px;
+
+  align-items: center;
+  @include horizontal-center;
+  justify-content: space-between;
+  &__item {
+    position: relative;
+
+    margin: 0 10px;
+    padding-top: 50px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $dark-purple;
+
+    font-family: $OpenSans-Extrabold;
+    font-size: rem-calc(12);
+    line-height: rem-calc(13);
+    &:before {
+      top: 0;
+
+      display: block;
+
+      content: "";
+
+      border-radius: 50%;
+      background-color: $white;
+
+      @include horizontal-center;
+    }
+    &:hover {
+      cursor: pointer;
+
+      color: $gold;
+    }
+    &._prev {
+      &:before {
+        @include bg-svg($left-blue);
+      }
+      &:hover {
+        &:before {
+          @include bg-svg($left-gold);
+        }
+      }
+    }
+    &._next {
+      &:before {
+        @include bg-svg($right-blue);
+      }
+      &:hover {
+        &:before {
+          @include bg-svg($right-gold);
+        }
+      }
+    }
+  }
+}

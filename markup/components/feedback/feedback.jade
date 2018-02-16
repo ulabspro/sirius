@@ -1,0 +1,24 @@
+mixin feedback(data)
+  .feedback
+    .title.feedback__title
+      .title__cursive Обратная
+      .title__normal 
+        span Связь
+
+    .feedback-form._novalid
+      .feedback-form-error-msg
+        .feedback-form-error-msg__item ВВЕДИТЕ ПОЖАЛУЙСТА ВАШ 
+          strong E-MAIL 
+
+      .feedback-form__column
+        .feedback-form-element._error
+          input(type="text" value="" placeholder="Имя").feedback-form-element__field
+        .feedback-form-element
+          input(type="text" value="" placeholder="Телефон").feedback-form-element__field
+        .feedback-form-element
+          input(type="text" value="" placeholder="E-mail").feedback-form-element__field
+      .feedback-form__column
+        .feedback-form-element._textarea
+          textarea(placeholder="Сообщение").feedback-form-element__field
+      .feedback-form-submit
+        input(type="submit" value="Отправить").feedback-form-submit__button  

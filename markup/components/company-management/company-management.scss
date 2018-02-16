@@ -1,0 +1,92 @@
+.company-management {
+  width: 1200px;
+  margin: auto;
+  margin-top: 75px;
+
+  @include cf;
+  &__title {
+    margin-bottom: 75px;
+    .title__cursive {
+      margin-bottom: 3px;
+    }
+  }
+}
+
+.company-management-item {
+  position: relative;
+
+  height: 472px;
+  margin-bottom: 60px;
+  &._right {
+    .company-management-item-inside {
+      right: 0;
+
+      padding-right: 515px;
+      padding-left: 95px;
+
+      text-align: right;
+    }
+    .company-management-item__image {
+      float: right;
+
+      margin-right: 42px;
+    }
+  }
+  &._left {
+    .company-management-item-inside {
+      left: 0;
+
+      padding-right: 95px;
+      padding-left: 515px;
+
+      text-align: left;
+    }
+    .company-management-item__image {
+      float: left;
+
+      margin-left: 42px;
+    }
+  }
+  &__image {
+    position: relative;
+    z-index: 2;
+    img {
+      box-shadow: 0 3px 10px rgba($black, .3);
+    }
+  }
+  &__name {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+
+    color: $light-purple;
+
+    font-family: $OpenSans-Bold;
+    font-size: rem-calc(18);
+    span {
+      display: block;
+
+      text-transform: none;
+    }
+  }
+  &__text {
+    color: #4d4d4d;
+
+    font-size: rem-calc(14);
+    line-height: rem-calc(18);
+  }
+}
+
+.company-management-item-inside {
+  position: absolute;
+
+  box-sizing: border-box;
+  width: 1005px;
+  padding-top: 65px;
+  padding-bottom: 105px;
+
+  border: 2px solid $gold;
+  border-radius: 52px;
+
+  @include vertical-center;
+}

@@ -1,0 +1,126 @@
+*::selection {
+  background: #e2e2e2;
+}
+
+.main {
+  width: 1280px;
+  margin: auto;
+}
+
+.title {
+  width: 945px;
+  margin: auto;
+
+  text-align: center;
+  &__cursive {
+    color: $gold;
+
+    font-family: $SignPainter-HouseScript;
+    font-size: rem-calc(30);
+    line-height: 1;
+  }
+  &__normal {
+    text-transform: uppercase;
+
+    color: $dark-purple;
+
+    font-family: $OpenSans-Extrabold;
+    font-size: rem-calc(20);
+    line-height: 1;
+    span {
+      position: relative;
+      &:before,
+      &:after {
+        position: absolute;
+
+        display: block;
+
+        width: 4px;
+        height: 4px;
+
+        content: "";
+
+        border-radius: 50%;
+        background-color: $dark-purple;
+
+        @include vertical-center;
+      }
+      &:before {
+        left: -13px;
+      }
+      &:after {
+        right: -13px;
+      }
+    }
+  }
+}
+
+.bottom-pattern {
+  position: relative;
+
+  min-width: 1280px;
+  max-width: 1920px;
+  margin: 25px auto 55px;
+  &:before {
+    display: block;
+
+    margin: auto;
+
+    content: "";
+
+    @include bg-svg($pattern);
+  }
+}
+
+.show-more {
+  display: flex;
+
+  margin-bottom: 50px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: $dark-purple;
+
+  font-family: $OpenSans-Extrabold;
+  font-size: rem-calc(12);
+
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    color: $gold;
+    &:before {
+      @include bg-svg($bottom-gold);
+    }
+  }
+  &:before {
+    position: relative;
+
+    display: block;
+
+    margin-right: 10px;
+
+    content: "";
+
+    @include bg-svg($bottom-blue);
+  }
+}
+
+// google maps zoom
+.gm-bundled-control.gm-bundled-control-on-bottom {
+  right: 50px !important;
+  bottom: 310px !important;
+}
+
+.gmnoprint,
+.gm-style-cc {
+  text-indent: -99999px !important;
+}
+
+.gm-style {
+  a {
+    img {
+      display: none !important;
+    }
+  }
+}

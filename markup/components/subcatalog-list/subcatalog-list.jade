@@ -1,0 +1,26 @@
+mixin subcatalog-list(data)
+  .subcatalog-list
+    .subcatalog-list__wrapper
+      .title.subcatalog-list__title
+        .title__cursive Каталог
+        .title__normal 
+          span Мармелад
+
+      .subcatalog-list-slider
+        .subcatalog-list-slider__slide
+          - for (var i = 0; i < 8; i++)
+            a(href="product.html" title="").subcatalog-list-item
+              .subcatalog-list-item__image
+                img(src="%=static=%images/assets/subcatalog-list/img.png" alt="")
+              .subcatalog-list-item__name «Bello Marmello» 
+                span Ягодное ассорти
+
+        .subcatalog-list-slider__slide
+          - for (var i = 0; i < 8; i++)
+            a(href="product.html" title="").subcatalog-list-item
+              .subcatalog-list-item__image
+                img(src="%=static=%images/assets/subcatalog-list/img.png" alt="")
+              .subcatalog-list-item__name «Bello Marmello» 
+                span Ягодное ассорти
+
+      .subcatalog-list-slider-controls

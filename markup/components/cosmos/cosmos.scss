@@ -1,0 +1,132 @@
+.cosmos {
+  width: 100%;
+  height: 940px;
+  @media screen and (max-width: 1400px) {
+    height: 800px
+  }
+  &:before {
+    z-index: -1;
+    @include absolute-center;
+
+    width: 100%;
+    height: 100%;
+
+    content: "";
+
+    background: url(%=static=%assets/cosmos/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.cosmos-ellipse {
+  top: 188px;
+  @include horizontal-center;
+
+  width: 1150px;
+  height: 700px;
+
+  background: url(%=static=%assets/cosmos/path.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  @media screen and (max-width: 1400px) {
+    top: 80px;
+
+    transform: scale(.7) translateX(-70%);
+  }
+}
+
+.cosmos-ellipse-circle {
+  position: absolute;
+  z-index: -100000;
+}
+
+.cosmos-ellipse-planet {
+  position: absolute;
+  z-index: -1;
+  &:after {
+    position: absolute;
+    @include absolute-center;
+
+    display: block;
+
+    width: 200%;
+    height: 150%;
+
+    content: "";
+
+    background: transparent;
+  }
+  &:before {
+    display: block;
+
+    content: "";
+  }
+  &._romambello {
+    &:before {
+      @include bg($romambello);
+    }
+  }
+  &._bellomarmello {
+    &:before {
+      @include bg($bellomarmello);
+    }
+  }
+  &._gustohrusto {
+    &:before {
+      @include bg($gustohrusto);
+    }
+  }
+  &._tortolatte {
+    &:before {
+      @include bg($tortolatte);
+    }
+  }
+}
+
+.cosmos-ellipse-planet-popup {
+  position: absolute;
+  z-index: 4;
+  @include transition;
+  @include vertical-center;
+
+  display: none;
+
+  width: 345px;
+  height: 295px;
+
+  border-radius: 30px;
+  background: $white;
+  box-shadow: 0 0 10px rgba($white, .9);
+  &__image {
+    position: absolute;
+    bottom: 80px;
+  }
+  &__content {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+
+    width: 90%;
+    margin: auto;
+
+    text-align: center;
+  }
+  &__text {
+    margin-bottom: 5px;
+
+    color: #4d4d4d;
+
+    font-family: $OpenSans;
+    font-size: rem-calc(14);
+  }
+  &__link {
+    text-decoration: none;
+
+    color: $gold;
+
+    font-family: $SignPainter-HouseScript;
+    font-size: rem-calc(30);
+  }
+}

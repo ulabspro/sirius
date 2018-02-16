@@ -1,0 +1,14 @@
+mixin catalog-list(data)
+  .catalog-list
+    .catalog-list__wrapper
+      .title.catalog-list__title
+        .title__cursive Каталог
+        .title__normal 
+          span Товаров
+
+      +catalog-item('Карамель')._caramel
+      +catalog-item('Праздничная<br>упаковка')._holiday
+      +catalog-item('Мармелад')._jelly
+      +catalog-item('Вафли')._wafer
+      +catalog-item('Шоколад')._chocolate
+      +catalog-item('Конфеты')._candy

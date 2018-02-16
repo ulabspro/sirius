@@ -1,0 +1,40 @@
+doctype html
+html(class="no-js", lang="ru")
+
+  include ../components/head/head
+  include ../components/header/header
+  include ../components/catalog-item/catalog-item
+  include ../components/catalog-list/catalog-list
+  include ../components/subcatalog-list/subcatalog-list
+  include ../components/product-list/product-list
+  include ../components/product-item/product-item
+  include ../components/product-full/product-full
+  include ../components/product-full-item/product-full-item
+  include ../components/about-company/about-company
+  include ../components/certificates/certificates
+  include ../components/company-management/company-management
+  include ../components/contacts-list/contacts-list
+  include ../components/contacts-map/contacts-map
+  include ../components/feedback/feedback
+  include ../components/documentation-info/documentation-info
+  include ../components/offer-partners-info/offer-partners-info
+  include ../components/partners-map/partners-map
+  include ../components/news-top/news-top
+  include ../components/news-bottom/news-bottom
+  include ../components/news-full-article/news-full-article
+  include ../components/cosmos/cosmos
+  include ../components/footer/footer
+
+  head
+    +head(head.defaults)
+  body
+    block header
+      +header
+    block content
+      h1 Hello, I'm layout
+    
+    block footer
+      +footer()
+
+    //- Main scripts. You can replace it, but I recommend you to leave it here
+    script(src='%=static=%js/main%=hash=%%=min=%.js')

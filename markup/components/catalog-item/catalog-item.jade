@@ -1,0 +1,7 @@
+mixin catalog-item(name)
+  - var modiffer = attributes.class || '';
+  a(href="/subcatalog.html" title="#{name}" class="#{modiffer}").catalog-item
+    .catalog-item__image
+      img(src="%=static=%images/assets/catalog-item/img.png" alt="")
+    .catalog-item__name
+      span!=name

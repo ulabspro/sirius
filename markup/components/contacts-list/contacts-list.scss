@@ -1,0 +1,59 @@
+.contacts-list {
+  min-width: 1280px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 78px;
+  &__wrapper {
+    display: flex;
+
+    width: 990px;
+    margin: auto;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__title {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  &__item {
+    position: relative;
+
+    max-width: 310px;
+
+    color: #4d4d4d;
+
+    font-family: $OpenSans;
+    font-size: rem-calc(14);
+    &:last-child {
+      margin-right: 0;
+    }
+    &:before {
+      left: 0;
+
+      content: "";
+
+      @include vertical-center;
+    }
+    &._phone {
+      padding-left: 68px;
+      &:before {
+        @include bg-svg($phone);
+      }
+    }
+    &._email {
+      padding-left: 82px;
+      &:before {
+        @include bg-svg($email);
+      }
+    }
+    &._address {
+      padding-left: 65px;
+      &:before {
+        @include bg-svg($address);
+      }
+    }
+  }
+}

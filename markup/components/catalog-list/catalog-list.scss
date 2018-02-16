@@ -1,0 +1,18 @@
+.catalog-list {
+  min-width: 1280px;
+  max-width: 100%;
+  padding-top: 40px;
+  &__wrapper {
+    display: flex;
+
+    width: 1120px;
+    margin: auto;
+
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  &__title {
+    margin-bottom: 45px;
+  }
+}
